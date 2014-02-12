@@ -12,14 +12,13 @@ $('form').submit(function (e) {
     var creditedDays = $('#credit').val();//value of next input, etc
     var felony = $('#type').val();
     var violence = $('#violence').val();
-    var sex = $('#sex').val();
     result = $('#result');
 
   if (felony === 'true'){
     
-    if (sex === 'true' || violence === 'true'){
+    if (| violence === 'true'){
        /*
-       if it is a felony violence/sex crime, the amount of time left
+       if it is a felony violence, the amount of time left
        to be served will be the 85% of the sentence remaining after 
        subtracting the amount of time credited by the judge for 
        time served prior to sentencing.
