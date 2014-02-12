@@ -28,7 +28,7 @@ $('form').submit(function (e) {
       
     } else {
       /*
-      if it is a felony non-sex/non-violence crime, the amount 
+      if it is a felony non-violence crime, the amount 
       of time left to be served will be 40% of the sentence 
       remaining after subtracting the amount of time credited by 
       the judge for time served prior to sentencing.
